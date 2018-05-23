@@ -23,7 +23,7 @@ Import database
 
 - Run `docker exec -it [WORKSPACE CONTAINER NAME] bash` to ssh into the workspace container
 
-- Run `mysql_import [database_host] [database_username] [database_password]` 
+- Run `mysql_import [database_file_name] [database_host] [database_username] [database_password]` 
 
 Get mysql container host/ip
 

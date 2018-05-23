@@ -48,7 +48,7 @@ services:
     build: ./docker/workspace
     volumes:
       - ./app:/var/www
-      - ./docker/mysql/import/database.sql.gz:/tmp/mysql/database.sql.gz
+      - ./docker/mysql/import:/var/mysql/dumps
     links:
       - mysql
     tty: true

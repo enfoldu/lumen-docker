@@ -2,5 +2,5 @@
 
 ## Import database
 mysql_import() {
-pv /tmp/mysql/database.sql.gz | gunzip | mysql --host=$1 --user=$2 --password=$3 itovi_dev
+pv /var/mysql/dumps/$1 | gunzip | mysql --host=$2 --user=$3 --password=$4 itovi_dev
 }
