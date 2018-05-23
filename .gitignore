@@ -2,7 +2,6 @@
 app/*
 .env
 docker/mysql/import/*
-docker/nginx/logs/*
 
 # IntelliJ project files
 .idea
