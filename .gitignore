@@ -3,9 +3,10 @@ app/*
 .env
 docker/nginx/logs/*
 docker/mysql/import/*
+*.DS_Store
 
 # IntelliJ project files
-.idea
+*.idea
 *.iml
 out
 gen
